@@ -1,0 +1,10 @@
+monthly_SA=eval(input("Enter monthly saving amount:"))
+annual_IR=eval(input("Enter annual interest rate:"))
+monthly_IR=annual_IR/1200
+month1=(monthly_SA*(1+monthly_IR))
+month2=((monthly_SA+month1)*(1+monthly_IR))
+month3=((monthly_SA+month2)*(1+monthly_IR))
+month4=((monthly_SA+month3)*(1+monthly_IR))
+month5=((monthly_SA+month4)*(1+monthly_IR))
+month6=((monthly_SA+month5)*(1+monthly_IR))
+print("After six months the value in account is:",month6)
